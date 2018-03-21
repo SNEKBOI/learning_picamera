@@ -18,3 +18,5 @@ image = rawCapture.array
 # display the image on screen and wait for a keypress
 cv2.imshow("Image", image)
 cv2.waitKey(0)
+
+print(image.shape)
